@@ -10,8 +10,9 @@ To run it as-is only email and password are required:
 import thebrain
 import time
 
-
-bot = thebrain.TheBrain()
+email = 'email@example.com'
+pw = 'password'
+bot = thebrain.TheBrain(email, pw)
 
 while True:
     bot.take_over_the_world()
