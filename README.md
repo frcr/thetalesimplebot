@@ -8,10 +8,14 @@ To run it as-is only email and password are required:
 
 ~~~python
 import thebrain
+import time
+
+
 bot = thebrain.TheBrain()
 
 while True:
     bot.take_over_the_world()
+    time.sleep(5)
 ~~~
 
 It is pretty easy to edit the `take_over_the_world()` method to change the existing conditions or to add your own.
