@@ -6,7 +6,7 @@ The bot itself consists of three parts, TheBrain class being the endpoint.
 
 To run it as-is only email and password are required:
 
-~~~
+~~~python
 import thebrain
 bot = thebrain.TheBrain()
 
